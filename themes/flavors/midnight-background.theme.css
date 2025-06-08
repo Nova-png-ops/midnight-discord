@@ -60,7 +60,7 @@ body {
     --transparency-tweaks: on; /* off: no changes, on: remove some elements for better transparency */
     --remove-bg-layer: off; /* off: no changes, on: remove the base --bg-3 layer for use with window transparency (WILL OVERRIDE BACKGROUND IMAGE) */
     --panel-blur: on; /* off: no changes, on: blur the background of panels */
-    --blur-amount: 12px; /* amount of blur */
+    --blur-amount: 24px; /* amount of blur */
     --bg-floating: hsla(220, 15%, 13%, 0.9); /* set this to a more opaque color if floating panels look too transparent. only applies if panel blur is on  */
 
     /* chatbar options */
@@ -77,13 +77,12 @@ body {
     --colors: on; /* off: discord default colors, on: midnight custom colors */
 
     /* text colors */
-    --text-0: hsla(220, 15%, 10%, 1); /* text on colored elements */
-    --text-1: hsl(220, 45%, 95%); /* other normally white text */
-    --text-2: hsl(220, 25%, 85%); /* headings and important text */
-    --text-3: hsl(220, 20%, 70%); /* normal text */
-    --text-4: hsl(220, 15%, 50%); /* icon buttons and channels */
-    --text-5: hsl(220, 15%, 35%); /* muted channels/chats and timestamps */
-
+    --text-0: #000000;
+    --text-1: #000000;
+    --text-2: #000000;
+    --text-3: #000000;
+    --text-4: #000000;
+    --text-5: #000000;
     /* background and dark colors */
     --bg-1: hsla(220, 15%, 20%, 0.6); /* dark buttons when clicked */
     --bg-2: hsla(220, 15%, 16%, 0.6); /* dark buttons */
